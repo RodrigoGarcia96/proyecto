@@ -6,17 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vender Productos</title>
     <style>
-        /* Estilos para el modal */
         .modal {
-            display: none; /* Ocultar el modal por defecto */
-            position: fixed; /* Posición fija */
-            z-index: 1; /* Por encima de todo */
+            display: none;
+            position: fixed;
+            z-index: 1;
             left: 0;
             top: 0;
             width: 100%;
             height: 100%;
             overflow: auto;
-            background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+            background-color: rgba(0, 0, 0, 0.5);
         }
         .modal-content {
             background-color: #fefefe;
