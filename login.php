@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($result && $result->num_rows == 1) {
         // Inicio de sesión exitoso
         // Redirigir al usuario a la página deseada
-        header("Location: puntoVenta.php");
+        header("Location: menu.php");
         exit;
     } else {
         // Inicio de sesión fallido
